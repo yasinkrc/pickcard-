@@ -1,0 +1,187 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: pickacard
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/ismail.karaca/CLionProjects/pickacard/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target pickacard
+
+
+#############################################
+# Order-only phony target for pickacard
+
+build cmake_object_order_depends_target_pickacard: phony || CMakeFiles/pickacard.dir
+
+build CMakeFiles/pickacard.dir/main.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/main.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir
+
+build CMakeFiles/pickacard.dir/base/Base.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/base/Base.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/base/Base.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir/base
+
+build CMakeFiles/pickacard.dir/base/Result.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/base/Result.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/base/Result.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir/base
+
+build CMakeFiles/pickacard.dir/card/Red.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/card/Red.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/card/Red.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir/card
+
+build CMakeFiles/pickacard.dir/card/Green.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/card/Green.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/card/Green.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir/card
+
+build CMakeFiles/pickacard.dir/card/Blue.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/card/Blue.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/card/Blue.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir/card
+
+build CMakeFiles/pickacard.dir/card/DarkRed.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/card/DarkRed.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/card/DarkRed.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir/card
+
+build CMakeFiles/pickacard.dir/utilities/ReadWriteFile.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/utilities/ReadWriteFile.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/utilities/ReadWriteFile.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir/utilities
+
+build CMakeFiles/pickacard.dir/utilities/Play.cpp.o: CXX_COMPILER__pickacard_Debug /Users/ismail.karaca/CLionProjects/pickacard/utilities/Play.cpp || cmake_object_order_depends_target_pickacard
+  DEP_FILE = CMakeFiles/pickacard.dir/utilities/Play.cpp.o.d
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  OBJECT_FILE_DIR = CMakeFiles/pickacard.dir/utilities
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pickacard
+
+
+#############################################
+# Link the executable pickacard
+
+build pickacard: CXX_EXECUTABLE_LINKER__pickacard_Debug CMakeFiles/pickacard.dir/main.cpp.o CMakeFiles/pickacard.dir/base/Base.cpp.o CMakeFiles/pickacard.dir/base/Result.cpp.o CMakeFiles/pickacard.dir/card/Red.cpp.o CMakeFiles/pickacard.dir/card/Green.cpp.o CMakeFiles/pickacard.dir/card/Blue.cpp.o CMakeFiles/pickacard.dir/card/DarkRed.cpp.o CMakeFiles/pickacard.dir/utilities/ReadWriteFile.cpp.o CMakeFiles/pickacard.dir/utilities/Play.cpp.o
+  FLAGS = -g -isysroot /Users/ismail.karaca/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/pickacard.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = pickacard
+  TARGET_PDB = pickacard.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ismail.karaca/CLionProjects/pickacard/cmake-build-debug && "/Users/ismail.karaca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ismail.karaca/CLionProjects/pickacard/cmake-build-debug && "/Users/ismail.karaca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/ismail.karaca/CLionProjects/pickacard -B/Users/ismail.karaca/CLionProjects/pickacard/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ismail.karaca/CLionProjects/pickacard/cmake-build-debug
+
+build all: phony pickacard
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/ismail.karaca/CLionProjects/pickacard/CMakeLists.txt /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/ismail.karaca/CLionProjects/pickacard/CMakeLists.txt /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/ismail.karaca/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

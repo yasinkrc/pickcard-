@@ -1,0 +1,3 @@
+/Users/ismail.karaca/CLionProjects/pickacard/cmake-build-debug/CMakeFiles/pickacard.dir
+/Users/ismail.karaca/CLionProjects/pickacard/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ismail.karaca/CLionProjects/pickacard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
